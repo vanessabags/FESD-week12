@@ -1,0 +1,28 @@
+{
+  "website": [
+    {
+      "websiteName": "Apple",
+      "type": "Shopping",
+      "userName": "appple4eva",
+      "password": "wesmfe23mt",
+      "dateCreated": "2023-06-14",
+      "id": 1
+    },
+    {
+      "websiteName": "Netflix",
+      "type": "Streaming",
+      "userName": "vb@gmail.com",
+      "password": "PWshare4eva",
+      "dateCreated": "2015-02-20",
+      "id": 2
+    },
+    {
+      "websiteName": "Amazon",
+      "type": "Streaming/Shopping",
+      "userName": "JeffBae-zos",
+      "password": "betterthanbrunowithmymillions0000",
+      "dateCreated": "2023-06-06",
+      "id": 3
+    }
+  ]
+}

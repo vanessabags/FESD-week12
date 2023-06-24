@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 12 CRUD Project</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <img src="secret-garden_t.jpeg" alt="secret garden">
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <div class="card">
+            <div class="card-header m-3 text-center">
+                <h1>~ Pass ~ Word ~ Manager ~</h1><br>
+                <h6 class="card-subtitle mb-3"><small>A place to store and find all your random secrets...</small></h6>
+            </div>
+            <div class="card-body">
+                <div class="border border-light">
+                    <h4 class="p-2">Add New Secret</h4>
+                    <form>
+                        <div class="p-1">
+                            <label for="websiteName">Website</label>
+                            <input type="text" id="websiteName" class="form-control">
+                        </div>
+                        <div class="p-1">
+                            <label for="typeOfWebsite">Type of Website</label>
+                            <input type="text" id="typeOfWebsite" class="form-control">
+                        </div>
+                        <div class="p-1">
+                            <label for="userName">User Name</label>
+                            <input type="text" id="userName" class="form-control">
+                        </div>
+                        <div class="p-1">
+                            <label for="password">Password</label>
+                            <input type="text" id="password" class="form-control">
+                        </div>
+                        <div class="p-2">
+                            <label for="dateCreated">Date Created </label>
+                            <input type="date" name="date-creation" id="dateCreated">
+                        </div>
+                        <button class="btn btn-outline-light" type="submit" id="submitButton">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <th>#</th>
+                <th>Website</th>
+                <th>Website Type</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Date Created</th>
+                <th></th>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <!-- Below is code to insert an UPDATE form with the value of the ID and the changing of the password -->
+        <!-- 
+            <div class="card">
+            <div class="card-header">
+                <h3>Update Password</h3>
+            </div>
+            <div class="card-body">
+                <div class="form-group">
+                    <label for="updateWebsite">Website ID</label> /**** Trying to choose the data to replace through its ID
+                    <input type="text" id="updateWebsite" class="form-control" placeholder="Enter Website's ID to Change"> 
+                </div>
+                <div class="form-group">
+                    <label for="updatePassword">New Password</label> /*** Trying to change one data in the entity
+                    <input type="text" id="updatePassword" class="form-control" placeholder="Enter New Password">
+                </div>
+                <button type="submit" id="updateButton">Change</button>
+            </div>
+        </div>   -->
+        
+
+    </div>
+    <br>
+    <div class="container-fluid">
+        <img src="secret-garden_.jpeg" alt="secret garden">
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

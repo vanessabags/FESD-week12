@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(238, 211, 238);
+}
+h4 {
+    text-shadow: 3px 3px 1px grey;
+}
+.card {
+    background-color: rgb(29, 29, 129);
+    color: white;
+    border-radius: 15px;
+    height: auto;
+    line-height: 25px;
+    max-height: none;
+    min-height: 0px;
+    padding: 20px;
+}
+.card-header {
+    border-color: white;
+    background-color: rgb(50, 50, 139);
+    border-radius: 25px;
+}
+.card-body {
+    padding-bottom: 20px;
+}
+.border {
+    border-radius: 15px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.table {
+    border-radius: 20px;
+    border: 2px rgb(29, 29, 129);
+}
+#submitButton {
+    float: right;
+}
+img {
+    
+    max-width: 100%;
+}
