@@ -1,5 +1,9 @@
 body {
-    background-color: rgb(238, 211, 238);
+
+    background: radial-gradient(
+        farthest-corner at 40px 40px,
+        #e5b4e5 0%,
+        #83ca99 100%)
 }
 h4 {
     text-shadow: 3px 3px 1px grey;
@@ -37,6 +41,5 @@ h4 {
     float: right;
 }
 img {
-    
     max-width: 100%;
 }
